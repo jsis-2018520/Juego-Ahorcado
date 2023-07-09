@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="Style.css" rel="Stylesheet">
+    <script src="Script.js"></script>
+    <title>Pagina Juego Ahorcado</title>
+</head>
+<body>
+    <!-- codepen.io/ pagian donde copiar-->
+    <center class="contenedor">
+        <div class="palabraSaltos" >
+            <p id="saltos"></p>
+        </div>
+        <div class="contenedorAhorcado">
+            <img src="img/img1.png" alt="" class="imgAhorcado">
+        </div>
+        <center class="contenedorTeclado">
+            <div class="mensajes">
+                <p id="palabraBuscar"></p>
+                <p id="mostradorAciertos">Aciertos:   0</p>
+                <p id="mostradorFallos">Fallos:   0</p>
+            </div>
+            <div class="teclado"> 
+                <button onclick="btnLetra('q')">Q</button>
+                <button onclick="btnLetra('w')">W</button>
+                <button onclick="btnLetra('e')">E</button>
+                <button onclick="btnLetra('r')">R</button>
+                <button onclick="btnLetra('t')">T</button>
+                <button onclick="btnLetra('y')">Y</button>
+                <button onclick="btnLetra('u')">U</button>
+                <button onclick="btnLetra('i')">I</button>
+                <button onclick="btnLetra('o')">O</button>
+                <button onclick="btnLetra('p')">P</button><br>
+                <button onclick="btnLetra('a')">A</button>
+                <button onclick="btnLetra('s')">S</button>
+                <button onclick="btnLetra('d')">D</button>
+                <button onclick="btnLetra('f')">F</button>
+                <button onclick="btnLetra('g')">G</button>
+                <button onclick="btnLetra('h')">H</button>
+                <button onclick="btnLetra('j')">J</button>
+                <button onclick="btnLetra('k')">K</button>
+                <button onclick="btnLetra('l')">L</button>
+                <button onclick="btnLetra('ñ')">Ñ</button><br>
+                <button onclick="btnLetra('z')">Z</button>
+                <button onclick="btnLetra('x')">X</button>
+                <button onclick="btnLetra('c')">C</button>
+                <button onclick="btnLetra('v')">V</button>
+                <button onclick="btnLetra('b')">B</button>
+                <button onclick="btnLetra('n')">N</button>
+                <button onclick="btnLetra('m')">M</button>
+                <button>,</button>
+                <button>.</button>
+            </div>
+            <div class="contenedorBtnInicio">
+                <button id="btnInicio" onclick="iniciar()"><center id="pInicio"> Iniciar </center></button>
+            </div>
+        </center>        
+    </center>
+</body>
+</html>

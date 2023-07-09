@@ -1,0 +1,84 @@
+body{
+    background-color: aquamarine;
+    margin: 0%;
+}
+
+.contenedor{
+    position:relative;
+    background-color: bisque;
+    margin: 14%;
+    margin-top: 4%;
+    width: 70%;
+    height: 865px;
+    padding: 20px;
+    padding-bottom: 7%;
+    border-radius: 30px;
+}
+
+.palabraSaltos{
+    background-color: aqua;
+    width: 400px;
+    height: 50px;
+}
+
+#saltos{
+    font-size: 26px;
+}
+
+.imgAhorcado{
+    width: 70%;
+    height: 80%;
+    margin-top: 8%;
+    margin-left: 15%;
+    margin-right: 15%;
+}
+
+.contenedorAhorcado{
+    background-color: aqua;
+    width: 500px;
+    height: 400px;
+    margin: 20px;
+}
+
+.mensajes{
+    background-color: red;
+}
+
+.contenedorTeclado{
+    background-color: aqua;
+    width: 500px;
+    height: 365px;
+    margin: 20px;
+}
+
+.teclado{
+    margin: 40px;
+    padding: 15px;
+    display: inline-block;
+    background-color:aquamarine
+}
+
+button{
+    background-color: orange;
+    text-align: center;
+    display: inline-block;
+    height: 30px;
+    width: 30px;
+    margin: 2px;
+    font-weight: bold;
+}
+
+.contenedorBtnIniciar{
+    display: block;
+    background-color: aquamarine;
+}
+
+#btnInicio{
+    font-size: 18px;
+    width: 150px;
+    height: 40px;
+}
+
+#pInicio{
+    font-weight: bold;
+}
